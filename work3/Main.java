@@ -14,9 +14,9 @@ package work3;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(getMax(10, 129));
-        System.out.println(getMax("computer", "car"));
-        System.out.println(getMax(12.2, 23.1));
+        System.out.println(getMax(123, 129));
+        System.out.println(getMax("home", "cat"));
+        System.out.println(getMax(45.7, 23.3));
      }
  
      public static <T extends Comparable<T>> T getMax(T parametr1, T parametr2){
